@@ -60,9 +60,9 @@ function Quiz() {
         {/* grid container for options */}
         <div className="grid grid-cols-2  gap-4">
           {['a', 'b', 'c', 'd'].map((option) => (
-            <div key={option} className=" flex items-center p-2 gap-2 border rounded-lg hover:bg-amber-300">
+            <div key={option} className=" flex items-center p-2 gap-2 border rounded-lg hover:bg-red-400">
               <input
-                type="radio"
+                type="checkbox"
                 // id={option}
                 name="answer"
                 value={data[index][option]}
