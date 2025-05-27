@@ -50,7 +50,7 @@ function Quiz() {
     }
 
   return (
-    <div className='flex  items-center justify-center  border-2 p-4 h-80  rounded-2xl bg-amber-50'>
+    <div className='flex  items-center justify-center  p-4 h-100  rounded-2xl bg-amber-50'>
 
       <form onSubmit={handleSubmit} className="">
         
